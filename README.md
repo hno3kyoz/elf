@@ -24,7 +24,9 @@ buildpack: https://github.com/cloudfoundry/python-buildpack.git
 
 ## Usage
 
-* go to browser, type `https://elf-subaural-crowdy.run.aws-jp01-pr.ice.predix.io`
+* go to browser, type the URL returned from `cf push` command.
+  * For example, `https://elf-subaural-crowdy.run.aws-jp01-pr.ice.predix.io`. **https://** protocol is required
 * elf will return the results of shell command, `ls -l /`
-* and you browse any folder via path. For example, to browse `/bin` folder, type `https://elf-subaural-crowdy.run.aws-jp01-pr.ice.predix.io/bin`
+* and you browse any folder via path.
+  * For example, to browse `/bin` folder, type `https://elf-subaural-crowdy.run.aws-jp01-pr.ice.predix.io/bin`
 * enjoy!
