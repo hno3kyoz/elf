@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# venv
+py3-rt/
+.vscode/
+tags
